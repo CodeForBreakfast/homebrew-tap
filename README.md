@@ -12,7 +12,8 @@ tap on its own.
 
 ## Formulae
 
-None yet.
+- [`bdi`](https://github.com/CodeForBreakfast/beady-eye) — a tree of work in
+  flight, annotated with the live agents working it.
 
 ## The default branch is not protected
 
