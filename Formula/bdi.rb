@@ -1,7 +1,6 @@
 class Bdi < Formula
   desc "Tree of work in flight: bead graphs annotated with the live agents working them"
   homepage "https://github.com/CodeForBreakfast/beady-eye"
-  version "0.3.0"
   license "Apache-2.0"
 
   on_macos do
