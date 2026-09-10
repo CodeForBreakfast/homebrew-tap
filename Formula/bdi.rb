@@ -5,25 +5,25 @@ class Bdi < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/CodeForBreakfast/beady-eye/releases/download/v0.5.0/bdi-aarch64-apple-darwin"
-      sha256 "8551184d42585acabde14844b4caa4a1dede641a7918992d71c7c4e12fcab9c3"
+      url "https://github.com/CodeForBreakfast/beady-eye/releases/download/v0.6.0/bdi-aarch64-apple-darwin"
+      sha256 "c733e1ef5f93a8963aff75347e4e6940a359156ba1e291655cf8f39ad859b94c"
     end
 
     on_intel do
-      url "https://github.com/CodeForBreakfast/beady-eye/releases/download/v0.5.0/bdi-x86_64-apple-darwin"
-      sha256 "848822107a6fea3f5904a0ce01f4c40fd64156b7f6bc529dfb108faecf6e4aca"
+      url "https://github.com/CodeForBreakfast/beady-eye/releases/download/v0.6.0/bdi-x86_64-apple-darwin"
+      sha256 "f71867356f6b5c7fc24f539a5f540651feb7d435ed65ff30c8283213e38ad2f9"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/CodeForBreakfast/beady-eye/releases/download/v0.5.0/bdi-aarch64-unknown-linux-musl"
-      sha256 "a6be5b8e1a26cbf6804967b4190ad4daeaff01cc7c963131260a1c6f9862f6c2"
+      url "https://github.com/CodeForBreakfast/beady-eye/releases/download/v0.6.0/bdi-aarch64-unknown-linux-musl"
+      sha256 "44668c863a4a080aec817887b4ff4dd61ae2996d20f538dc3c8bb996e02ddfb0"
     end
 
     on_intel do
-      url "https://github.com/CodeForBreakfast/beady-eye/releases/download/v0.5.0/bdi-x86_64-unknown-linux-musl"
-      sha256 "43d925dfae3fc9f3bae216ea162557f487e91930a6f38cfa54c016958b4a3647"
+      url "https://github.com/CodeForBreakfast/beady-eye/releases/download/v0.6.0/bdi-x86_64-unknown-linux-musl"
+      sha256 "a4c159c3bf44f9402d69e6667ba67ce42c1c07bc670820c2e2c019d80196f03e"
     end
   end
 
