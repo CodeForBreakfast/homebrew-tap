@@ -16,8 +16,3 @@ formulae, so a user can install them with `brew install`.
   when to publish and whether to review a formula first.
 - **A user's installation.** Which formulae a user taps, installs or pins
   lives with whoever runs that machine.
-- **Our own deployment, configuration and data for this tap.** These live
-  with whoever runs it, not in this repo.
-
-A seat working here may decline an ask outside this remit and say where it
-belongs.
