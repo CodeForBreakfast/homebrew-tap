@@ -1,29 +1,29 @@
 class Bdi < Formula
-  desc "Tree of work in flight: bead graphs annotated with the live agents working them"
+  desc "Trees of work from beads trackers, with what each agent is doing on its bead"
   homepage "https://github.com/CodeForBreakfast/beady-eye"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/CodeForBreakfast/beady-eye/releases/download/v0.37.0/bdi-aarch64-apple-darwin"
-      sha256 "d0bf79e86785ea51a2d64a58c8cf0f31e97b464f6a66bc1337159ad1a03fc8e2"
+      url "https://github.com/CodeForBreakfast/beady-eye/releases/download/v0.38.0/bdi-aarch64-apple-darwin"
+      sha256 "4ce2d00fb3a07d135f76c73691a6b65be47d40f1a135e79ac9754839490ef0dc"
     end
 
     on_intel do
-      url "https://github.com/CodeForBreakfast/beady-eye/releases/download/v0.37.0/bdi-x86_64-apple-darwin"
-      sha256 "e86d123becd6c01d769e9b5e280b651894f3a606794a489f220d694563fd1c91"
+      url "https://github.com/CodeForBreakfast/beady-eye/releases/download/v0.38.0/bdi-x86_64-apple-darwin"
+      sha256 "7bea61a3b0181437eaa5250067365f9b3230d725cc1a7be1ff845a387474b48e"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/CodeForBreakfast/beady-eye/releases/download/v0.37.0/bdi-aarch64-unknown-linux-musl"
-      sha256 "16a608644198017792424b68212b0325ce76fa13d36022d6898368f95614b9d9"
+      url "https://github.com/CodeForBreakfast/beady-eye/releases/download/v0.38.0/bdi-aarch64-unknown-linux-musl"
+      sha256 "637ff1fd0c9a34382460b419d3ae27fa4dc3d49f69e36ec6843ee70b8041aa60"
     end
 
     on_intel do
-      url "https://github.com/CodeForBreakfast/beady-eye/releases/download/v0.37.0/bdi-x86_64-unknown-linux-musl"
-      sha256 "e9392e481ed4c5faa71e587c59e71b38514a1041dd853ae128433f930e00c14b"
+      url "https://github.com/CodeForBreakfast/beady-eye/releases/download/v0.38.0/bdi-x86_64-unknown-linux-musl"
+      sha256 "bc82b6872ddc86242f4c60ff94f6ba948fcf26d97edefa8f4a8c1f4de520528d"
     end
   end
 
